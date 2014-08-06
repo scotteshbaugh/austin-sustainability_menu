@@ -22,7 +22,7 @@ h2 {
 	font-size: 15px;
 	font-weight: 300;
 	margin: 0 0 0 0;
-        padding: 0 0 0 10px;
+        padding: 0 0 0 0;
 }
 
 
@@ -37,8 +37,9 @@ h3 {
 h4 {
 	color: #20222c;
         font-family: sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 700;
+        line-height: 18px;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
 }
@@ -46,7 +47,7 @@ h4 {
 p {
 	color: #20222c;
 	font-family: sans-serif;
-	line-height: 22px;
+	line-height: 18px;
 	font-size: 14px;
 	font-weight: 400;
         padding: 0 0 0 0;
@@ -84,7 +85,7 @@ img {
 nav {
         margin: 0 auto;
     	padding: 0px 60px 0 60px;
-        width: 960px;
+        width: 1080px;
 }
 
 
@@ -93,8 +94,8 @@ nav {
 
 
 #menu-container {
-        background: #ececec;
-        height: 70px;
+        background: #f6f6f6;
+        height: 50px;
         position: fixed;
         width: 100%;
 }
@@ -109,7 +110,6 @@ nav {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 0 0;
-
 }
 
 #site-navigation li {
@@ -117,11 +117,17 @@ nav {
 	display: block;
 	float: left;
         font-family: sans-serif;
-	padding: 10px 30px 0px 0px;
+	padding: 10px 15px 0px 15px;
 	position: relative;
 	text-decoration: none;
-        width: 100px;
+        width: 120px;
 }
+
+#site-navigation li h2 {
+    text-align: center;
+    height: 40px;
+}
+
 
 
 #site-navigation li:hover {
@@ -131,11 +137,10 @@ nav {
 }
 
 #site-navigation ul li ul {
-	background: #FFFFFF;
 	float: left;
 	left: 0;
         min-width: 800px;
-        padding: 30px 0 0 0;
+        padding: 15px 0 0 0;
 	position: absolute;
         transition: visibility 0.10s ease-in;
 	visibility: hidden;
@@ -147,12 +152,16 @@ nav {
 }
 
 #site-navigation ul li ul li {
+	background: #f6f6f6;
+        border-top-style: solid;
+	border-color: #dddddd;
+        border-width: 1px;
 	clear: both;
 	color: #20222c;
 	font-family: sans-serif;
 	font-size: 15px;
 	line-height: 18px;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 0 10px 0;
         width: 100%;
         position: relative;
 }
@@ -167,7 +176,7 @@ nav {
 }
 
 #site-navigation ul li ul li:hover {
-	background: #b0b0b0;
+	background: #cccccc;
 
 }
 
@@ -188,9 +197,9 @@ nav {
 }
 
 .definition img {
-    width: 50px;
+    width: 90px;
     float: left;
-    padding: 0 30px 20px 20px;
+    padding: 0 35px 20px 30px;
 }
 
 .sub-definition {
@@ -198,15 +207,15 @@ nav {
 }
 
 .sub-definition p {
-    width: 620px;
+    width: 600px;
     float: left;
     padding: 0 0 0 0;
 }
 
 .sub-definition h4 {
-    width: 150px;
     float: left;
-    padding: 0 30px 0 0;
+    padding: 0 20px 0 30px;
+    width: 120px;
 }
 
 #grey1 {
@@ -215,12 +224,15 @@ nav {
 
 
 #grey2 {
-    background: #eeeeee;
+    background: #f6f6f6;
 }
 
 #grey3 {
-    background: #dbdbdb;
+    background: #f6f6f6;
 }
+
+
+
 
 
 
